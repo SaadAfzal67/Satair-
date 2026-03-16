@@ -2,11 +2,11 @@
 
 This prototype was developed to demonstrate how customer feedback can be integrated into the Satair Market platform. The interface includes a feedback modal where users can submit comments directly from the page, and a parts search feature for browsing aircraft parts.
 
-## Run locally
+## Run locally (VERY IMPORTANT)
 
 The prototype works directly in the browser and temporarily stores feedback in the browser’s local storage.
 
-If you want to see the fully developed prototype, start the backend server ###(VERY IMPORTANT)
+If you want to see the fully developed prototype, start the backend server.
 
 ```bash
 python3 server.py
