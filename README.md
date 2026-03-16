@@ -6,7 +6,7 @@ This prototype was developed to demonstrate how customer feedback can be integra
 
 The prototype works directly in the browser and temporarily stores feedback in the browser’s local storage.
 
-If you want feedback submissions to be saved to a file and to enable parts search, start the optional backend server:
+If you want to see the fully developed prototype, start the backend server ###(VERY IMPORTANT)
 
 ```bash
 python3 server.py
@@ -28,9 +28,9 @@ http://localhost:3000
 
 When the server is running:
 - Feedback submissions are saved in: `feedback/feedback.txt`
-- Aircraft parts are stored in: `parts.db` (SQLite database with sample data)
+- Aircraft parts are stored in: `parts.db` 
 
 ## Notes
 
-* The app must be accessed via `http://localhost:3000` for feedback to be saved.
-* If you open `index.html` directly (file://), feedback will not be stored.
+* The app must be accessed via `http://localhost:3000` for feedback to be saved and to see the UI properly.
+* If you open `index.html` directly (file://), feedback will not be stored and you may not see the website properly.
